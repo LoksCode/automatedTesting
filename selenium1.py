@@ -26,8 +26,4 @@ time_now = datetime.now().strftime('%H%M')
 
 driver.save_screenshot(f'./screenshots/scr_{today}{time_now}.png')
 
-
-
-
-
 sleep(3)
